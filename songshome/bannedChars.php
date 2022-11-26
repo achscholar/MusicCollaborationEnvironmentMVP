@@ -1,0 +1,3 @@
+<?php
+$bannedArray = array("\\", "'", "<", ">");
+?>

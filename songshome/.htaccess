@@ -1,0 +1,26 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^group/([0-9]+)/([a-z0-9]+) group.php?groupSubmit=$1&groupKeySubmit=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^view/([0-9]+)/([a-z0-9]+) view.php?songSubmit=$1&songKeySubmit=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^viewcollaborations/([0-9]+)/([a-z0-9]+) viewcollaborations.php?songid=$1&songKeySubmit=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^collaboration/([0-9]+)/([a-z0-9]+) collaboration.php?collaboration_id=$1&collaboration_key=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^uploadPage/([0-9]+)/([a-z0-9]+) uploadPage.php?requests_file_id=$1&visitor_key=$2 [L]
+
+
+
+
+
