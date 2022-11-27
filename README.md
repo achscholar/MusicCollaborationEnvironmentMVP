@@ -12,7 +12,7 @@ Before Installation: Have a web server that supports PHP and a MariaDB database.
 any issues during or after deployment try comparing your PHP and MariaDB versions to the ones used during development,
 listed in the "Development Environment" section below.
 
-### File Setup
+### Dependencies and File Setup
 1. Download the repository. Extract all repository files inside of your web servers root directory, often called "public_html."
 2. Extract all items in "dependencies.zip" inside of the "songshome" directory. You can delete "dependencies.zip" after extraction.
 
