@@ -15,12 +15,10 @@ listed in the "Development Environment" section below.
 
 ### Dependencies and File Setup
 1. Download the repository. Extract all repository files inside of your web servers root directory, often called "public_html."
-2. Extract all items in "dependencies.zip" inside of the "songshome" directory. You can delete "dependencies.zip" after extraction.
+2. Extract all items in "dependencies.zip" inside of the "songshome" directory.
 
 ### Database Schema Import
-Use the "songshome.sql" file to import the database schema inside of your MariaDB database environment. After import, the "songshome.sql"
-can be removed. Currently, the "songshome.sql" file does not recognize the name of your database. You can specify the name of your database by
-updating the following line with the name of your empty database:
+Use the "songshome.sql" file to import the database schema inside of your MariaDB database environment. Currently, the "songshome.sql" file does not recognize the name of your database. You can specify the name of your database by updating the following line with the name of your empty database:
 
 ```USE `your_database_name`;```
   
