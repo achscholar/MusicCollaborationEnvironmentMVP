@@ -1,10 +1,11 @@
 # Music Collaboration Environment MVP
 
 A collaborative online music platform. It is built using PHP and uses a MariaDB (Fork of MySQL) database.
-This platform allows musicians and music educators to publish their music and collaborate with each other.
-This is still a demo/mvp version, which does not allow for user registration so example user login buttons are provided
-to show the platforms functionality. Users are given the roles of "Group Leader" or "Member," allowing Group Leaders
-control of what is published publicly and limiting Member abilities to participating in collaborations between other users.
+This platform allows musicians and music educators to publish their music and collaborate with each other or the public
+by sharing a link to their collaboration. This is still a demo/mvp version, which does not allow for user registration
+so example user login buttons are provided to show the platforms functionality. Users are given the roles of
+"Group Leader" or "Member," allowing Group Leaders control of what is published publicly and limiting Member abilities
+to participating in collaborations between other users.
 
 ## Installation/Deployment
 
